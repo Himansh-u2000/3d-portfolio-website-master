@@ -1,3 +1,5 @@
+import agriguideLogo from "../images/AgriGuideLogo.png";
+
 export const Bio = {
   name: "Himanshu Haldar",
   roles: [
@@ -7,7 +9,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a passionate and versatile developer with a strong foundation in full-stack web and mobile development. With hands-on experience in technologies like React, Flutter, and Node.js, I thrive on solving real-world problems through clean, efficient code. I approach every project with curiosity, a growth mindset, and a drive to deliver impactful solutions. Adaptable and always eager to learn, I aim to contribute meaningfully to every team I join and continually push the boundaries of what I can achieve.",
+    "I'm a curious and adaptable developer with experience in React, Flutter, and Node.js. I love building real-world solutions and bring a growth mindset to every project. Always learning, always improving.",
   github: "https://github.com/Himansh-u2000/",
   resume:
     "https://drive.google.com/file/d/1sX1ZNYWVAHBhiNY6-llrMKQeXWPORMg1/view?usp=sharing",
@@ -31,25 +33,6 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
-      // {
-      //   name: "Angular Js",
-      //   image:
-      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      // },
-      // {
-      //   name: "HTML",
-      //   image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      // },
-      // {
-      //   name: "CSS",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      // },
       {
         name: "JavaScript",
         image:
@@ -93,20 +76,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
       },
-      // {
-      //   name: "Django",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
-      // },
-      // {
-      //   name: "MySQL",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      // },
-      // {
-      //   name: "Postgresql",
-      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      // },
       {
         name: "MongoDB",
         image:
@@ -141,11 +110,6 @@ export const skills = [
         image:
           "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       },
-      // {
-      //   name: "XML",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      // },
       {
         name: "Android Studio",
         image:
@@ -161,16 +125,6 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-      // {
-      //   name: "Tenserflow",
-      //   image:
-      //     "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      // },
-      // {
-      //   name: "Keras",
-      //   image:
-      //     "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      // },
       {
         name: "Jupyter",
         image:
@@ -181,11 +135,6 @@ export const skills = [
         image:
           "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
       },
-      // {
-      //   name: "Sk Learn Kit",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      // },
     ],
   },
   {
@@ -221,16 +170,6 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      // {
-      //   name: "Postman",
-      //   image:
-      //     "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      // },
-      // {
-      //   name: "Adobe XD",
-      //   image:
-      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      // },
       {
         name: "Figma",
         image:
@@ -243,137 +182,129 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    img: "https://physiobuddies.in/assets/logo-CZkn2wwb.png",
+    role: "Frontend Developer Intern",
+    company: "Physiobuddies.in",
+    date: "Jan 2024 – Apr 2024",
+    desc: "Developed a responsive physiotherapist booking and blogging platform using React and Tailwind CSS. Integrated APIs and worked closely with backend team to deliver user-focused interfaces.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
+      "React",
+      "Tailwind CSS",
       "HTML",
-      "CSS",
       "JavaScript",
+      "Git",
+      "UI/UX Design",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    doc: "https://physiobuddies.in",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    img: "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+    role: "Flutter Developer Intern",
+    company: "Admission Tracker App",
+    date: "July 2022 – Sept 2022",
+    desc: "Built a Flutter app under senior guidance to help students track their counselling positions for foreign college admissions. Designed key UI screens and integrated Firebase.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Material Design",
+      "UI/UX",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    img: agriguideLogo, // Use project repo logo if exists
+    role: "Full Stack Developer",
+    company: "Agriguide (Academic Project)",
+    date: "Jan 2024 – Apr 2024",
+    desc: "Built a crop recommendation system using KNN and APIs (Weather, Soil, AgMarknet). Developed web app using React, backend in Node.js/Express, and mobile app with Flutter.",
     skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
+      "React",
+      "Node.js",
+      "Express",
+      "Python",
+      "Machine Learning",
+      "KNN",
+      "APIs",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    doc: "https://github.com/Himansh-u2000/agri-guide",
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    img: "https://developers.google.com/community/gdg/images/logo-lockup-gdg-horizontal_720.png",
+    role: "GDG Team Head",
+    company: "Google Developer Group",
+    date: "2024 – Present",
+    desc: "Led the technical wing of GDG. Organized college-wide hackathons, workshops, and 20+ events in Dharohar 2025. Mentored juniors in Flutter and Web Development.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
+      "Leadership",
+      "Event Management",
+      "Flutter",
+      "Kotlin",
+      "Compose Camp",
+      "Hackathon Planning",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
   {
     id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    img: "https://www.codingninjas.com/landing/wp-content/uploads/elementor/thumbs/frame_1437253777-qxyirihczqq9hfa9r16trpddqa3yz0g13x8e6975hk.webp",
+    role: "Campus Technical Officer",
+    company: "10X Club – Coding Ninjas",
+    date: "2023 – Present",
+    desc: "Represented Coding Ninjas at campus level. Conducted code sessions and promoted coding culture. Helped peers improve problem-solving and DSA skills.",
     skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
+      "DSA",
+      "Community Leadership",
+      "Tech Promotion",
     ],
   },
   {
     id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
+    img: "https://institute.careerguide.com/wp-content/uploads/2022/07/28168173_183561045585476_3493559331387752147_n.png", // Or any placeholder
+    role: "Research Presenter",
+    company: "Quantum University Conference",
+    date: "Nov 2023",
+    desc: "Presented research on predicting popularity of Hip Hop songs using track features and machine learning. Shared findings at an international conference.",
+    skills: [
+      "Data Science",
+      "Research",
+      "Python",
+      "ML",
+    ],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://institute.careerguide.com/wp-content/uploads/2022/07/28168173_183561045585476_3493559331387752147_n.png", 
+    school: "Quantum University, Roorkee, Uttarakhand",
+    date: "Oct 2022 – June 2026 (Expected)",
+    grade: "Pursuing | Current Year: 3rd",
+    desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering with a minor specialization in Media Management. Courses include Data Structures, Web Technologies, Software Engineering, and App Development. Actively involved in technical communities like GDSC and GDG, leading events and contributing to full-stack and mobile projects.",
+    degree: "B.Tech – Computer Science and Engineering (with Minor in Media Management)",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHer9bLC2lxQFJr9bGupkv72NkARe6YGtNQw&s",
+    school: "Modern School, Rishikesh",
+    date: "Apr 2020 – Apr 2022",
+    grade: "75%",
+    desc: "Completed 12th grade under the ICSE curriculum with a focus on Science and Computer Science.",
+    degree: "ISC (Class XII), Science with Computer",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHer9bLC2lxQFJr9bGupkv72NkARe6YGtNQw&s",
+    school: "Modern School, Rishikesh",
+    date: "Apr 2018 – Apr 2020",
+    grade: "80%",
+    desc: "Completed 10th grade under the ICSE Board with a strong foundation in core subjects and Computer Applications.",
+    degree: "ICSE (Class X), Science with Computer Applications",
   },
 ];
+
 
 export const projects = [
   {
