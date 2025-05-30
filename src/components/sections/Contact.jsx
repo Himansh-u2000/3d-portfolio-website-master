@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 
@@ -106,25 +106,30 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   const form = useRef();
+
+
   const handelSubmit = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_76mcqcl",
+        "template_qfu1jb9",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "GsHhBvCWI5boPekhV"
       )
       .then(
-        (result) => {
+        () => {
           alert("Message Sent");
-          form.current.result();
+          form.current.reset(); // Reset form after success
         },
         (error) => {
-          alert(error);
+          alert("Failed to send message. Please try again.");
+          console.error(error);
         }
       );
   };
+
   return (
     <Container id="Education">
       <Wrapper>
@@ -136,7 +141,7 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handelSubmit}>
+        <ContactForm as="form" ref={form} onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
