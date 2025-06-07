@@ -10,6 +10,8 @@ import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
+import { Helmet } from 'react-helmet';
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,9 +36,35 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Himanshu Haldar",
+  "url": "https://himanshuhaldar.me",
+  "image": "https://himanshuhaldar.me/assets/preview.jpg",
+  "jobTitle": "Full Stack Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Freelancer"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/himanshuhaldar/",
+    "https://github.com/yourgithubusername",
+    "https://twitter.com/yourhandle" // Optional
+  ],
+  "knowsAbout": ["React", "Flutter", "MERN Stack", "Kotlin", "Firebase", "Node.js"],
+  "description": "Full-stack and mobile app developer specializing in MERN Stack, Flutter, and Kotlin."
+};
+
+
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      </Helmet>
       <BrowserRouter>
         <Navbar />
         <Body>

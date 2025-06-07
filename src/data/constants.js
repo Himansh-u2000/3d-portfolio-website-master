@@ -305,7 +305,6 @@ export const education = [
   },
 ];
 
-
 export const projects = [
   {
     id: 0,
@@ -407,4 +406,3 @@ export const projects = [
     github: "https://github.com/Himansh-u2000/pencilSketcchApp",
   },
 ];
-
