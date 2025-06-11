@@ -319,6 +319,17 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Blog Quote || A Blogging Platform",
+    date: "May 2025 – May 2025",
+    description:
+    "Full-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture. Feel Free to explore the code and contribute!. You can also check out the live demo at https://himanshuhaldar.tech or https://mega-project-himanshuhaldar2000-gmailcoms-projects.vercel.app/",
+    image: "https://github.com/Himansh-u2000/megaProject/raw/main/cover.png",
+    tags: ["React", "Redux", "Appwrite", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/Himansh-u2000/megaProject",
+  },
+  {
+    id: 2,
     title: "Personality Prediction App",
     date: "Aug 2024 – Dec 2024",
     description:
@@ -327,17 +338,6 @@ export const projects = [
     tags: ["React", "Gemini API", "Node.js", "D3.js", "Express"],
     category: "AI Web App",
     github: "https://github.com/Himansh-u2000/personality-prediction",
-  },
-  {
-    id: 2,
-    title: "Blogging Platform",
-    date: "May 2025 – May 2025",
-    description:
-      "Full-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture.",
-    image: "https://github.com/Himansh-u2000/megaProject/raw/main/cover.png",
-    tags: ["React", "Redux", "Appwrite", "Tailwind CSS"],
-    category: "web app",
-    github: "https://github.com/Himansh-u2000/megaProject",
   },
   {
     id: 3,
