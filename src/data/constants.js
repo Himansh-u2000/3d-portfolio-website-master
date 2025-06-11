@@ -322,8 +322,8 @@ export const projects = [
     title: "Blog Quote || A Blogging Platform",
     date: "May 2025 – May 2025",
     description:
-    "Full-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture. Feel Free to explore the code and contribute!. You can also check out the live demo at https://himanshuhaldar.tech or https://mega-project-himanshuhaldar2000-gmailcoms-projects.vercel.app/",
-    image: "https://github.com/Himansh-u2000/megaProject/raw/main/cover.png",
+      "Full-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture. Feel Free to explore the code and contribute!. You can also check out the live demo at https://himanshuhaldar.tech or https://mega-project-himanshuhaldar2000-gmailcoms-projects.vercel.app/",
+    image: "https://ik.imagekit.io/iyyolel10/portfolio-projects-thumbnail/Screenshot%202025-06-11%20211231.png?updatedAt=1749656893335",
     tags: ["React", "Redux", "Appwrite", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/Himansh-u2000/megaProject",
