@@ -322,7 +322,7 @@ export const projects = [
     title: "Blog Quote || A Blogging Platform",
     date: "May 2025 – May 2025",
     description:
-      "Full-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture. Feel Free to explore the code and contribute!. You can also check out the live demo at https://himanshuhaldar.tech or https://mega-project-himanshuhaldar2000-gmailcoms-projects.vercel.app/",
+      "You can also check out the live demo at 'https://himanshuhaldar.tech'. A Fully-featured blogging web app with post creation, login authentication, and a real-time backend using Appwrite. Built with modern React and Redux Toolkit architecture. Feel Free to explore the code and contribute!. ",
     image: "https://ik.imagekit.io/iyyolel10/portfolio-projects-thumbnail/Screenshot%202025-06-11%20211231.png?updatedAt=1749656893335",
     tags: ["React", "Redux", "Appwrite", "Tailwind CSS"],
     category: "web app",
@@ -333,7 +333,7 @@ export const projects = [
     title: "Personality Prediction App",
     date: "Aug 2024 – Dec 2024",
     description:
-      "An AI-based system using Gemini API that predicts personality based on behavioral questions. Features include a custom dashboard, resume analysis, and real-time scoring logic based on user input.",
+      "You can also check out the live demo at 'https://personality-prediction-ebon.vercel.app/'. An AI-based system using Gemini API that predicts personality based on behavioral questions. Features include a custom dashboard, resume analysis, and real-time scoring logic based on user input.",
     image: "https://ik.imagekit.io/iyyolel10/portfolio-projects-thumbnail/personality-prediction-thumbnail.png?updatedAt=1748631112385",
     tags: ["React", "Gemini API", "Node.js", "D3.js", "Express"],
     category: "AI Web App",
